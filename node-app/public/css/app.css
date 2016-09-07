@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidsanstamil.css);
+body {
+	font-family: 'Droid Sans Tamil', serif;
+}	
+.row {
+	max-width:100%;
+}
+.header {
+	padding-top: 5px;
+	border-bottom: solid #DDDDDD 1px;
+	padding-bottom: 5px;
+}
+.content {
+	padding-top: 15px;
+}
+@media screen and (min-width: 480px) {
+	.poster {
+		margin: 10px;
+	}
+}	
+.booknav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.content p {
+	font-size: 110%;
+	line-height: 1.8;
+	letter-spacing: 0.04em; 
+	text-align: justify;
+}		
+.chapter-thumbnail {
+	margin: 15px;
+}	

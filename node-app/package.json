@@ -1,0 +1,27 @@
+{
+  "name": "venmurasu",
+  "license": "GPLv3 or later",
+  "description": "venmurasu",
+  "version": "0.0.1",
+  "homepage": "http://thiru.in",
+  "repository": {
+    "type": "git",
+    "url": "http://thiru.in"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "xregexp": "*",
+    "mysql": ">= 0.2.x",
+	"async": "*",
+	"express": "*",
+	"express-handlebars": "*",
+	"request": "*",
+	"easyimage": "*",
+	"morgan": "*",
+	"dotenv": "*"
+  }
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="x-ua-compatible" content="IE=10" >
+	<meta name="description" content="{{title}}">
+	<meta name="author" content="ஜெயமோகன்">
+	<meta name="copyright" content="© 2012-2014 எழுத்தாளர் ஜெயமோகன்"/>
+	<title>{{title}}</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.1/css/normalize.min.css"/>
+	<link rel="stylesheet" href="/css/foundation.css"/>
+	<link rel="stylesheet" href="/css/hopscotch.min.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/fresco/fresco.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/app.css"/>		
+	<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.1/js/vendor/modernizr.js"></script>
+</head>
+<body>
+	<div class="header row">
+		<div class="large-1 small-4 columns">
+			<a id="home-tour" href="/" alt="முகப்பு"><img src="/house129.png" title="முகப்பு"></a>
+			<a href="/help" alt="முகப்பு"><img src="/questions1.png" title="முகப்பு"></a>			
+		</div>
+		<div class="large-10 small-6 columns">
+			<h4 class="medium-text-center">ஜெயமோகன் - <small>படைப்புகள்</small></h4>
+		</div>
+		<div class="large-1 small-2 columns">
+			<a id="author-tour" href="/jeyamohan" title="ஜெயமோகன்"><img class="right" width="50px" height="50px" src="/jeyamohan.png" alt="ஜெயமோகன்"></a>
+		</div>
+	</div>
+	<div class="content row">
+		{{{body}}}
+	</div>
+	<footer class="row">
+		<div class="large-12 small-12 columns">
+			<hr/>
+			<p>© 2012-2014 எழுத்தாளர் ஜெயமோகன்.</p>
+			<p>"Copyright related: Articles published in this website can be shared freely on the Internet. But in order to publish the articles - in part or in full - on other mediums and formats such as print, television, or e-book, prior permission needs to be obtained from the author".</p>
+			<p>© 2014 எழுத்தாளர் ஜெயமோகன். அச்சு ஊடகம் , தொலைக்காட்சி,இ-புக் முதலான பிற ஊடகங்களில் வெளியிட ஆசிரியரிடம் முன்அனுமதி பெற வேண்டும்.</p>
+		</div>
+	</footer>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.1/js/vendor/jquery.js"></script>    
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.1/js/foundation.min.js"></script>
+	<script src="/js/fresco/fresco.js"></script>
+	<script src='/js/jquery.jscroll.min.js'></script>
+	<script src='/js/hopscotch.min.js'></script>	
+	<script src="/js/app.js"></script>
+	{{#if help}}
+	    <script>
+			hopscotch.startTour(tour);
+		</script>
+	{{/if}}
+</body>
+</html>

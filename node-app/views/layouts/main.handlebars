@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{title}}">
+	<meta name="author" content="ஜெயமோகன்">
+	<link rel="shortcut icon" href="/favicon.ico">
+    <title>{{title}}</title>
+	<!-- Bootstrap core CSS -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/fresco/fresco.css"/>	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>		
+	<![endif]-->	
+	<!-- Custom styles for this template -->
+	<style>
+		@import url(http://fonts.googleapis.com/earlyaccess/droidsanstamil.css);
+		body {
+			font-family: 'Droid Sans Tamil', serif;
+		}
+		#main p {
+			font-size: 120%;
+			line-height: 1.8;
+			letter-spacing: 0.04em; 
+			text-align: justify;
+		}
+		.page-header {
+			margin: 0px;
+		}
+		.page-header h2 {
+			margin-left: 60px;
+		}
+		.chapter-thumbmail {
+			margin: 15px;
+		}
+		.home-thumbmail {
+			margin: 5px;
+			width: 300px;
+		}		
+		.bio {
+			width: 250px;
+		}			
+		.booknav {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.page-header h1 {
+			margin-left: 70px;
+		}
+		@media screen and (min-width: 480px) {
+			.poster {
+				margin: 10px;
+			}
+		}
+		ul.book li {
+			padding: 5px;
+		}		
+		ul.book li a {
+			//font-size: 130%;
+		}
+	</style>	
+</head>
+<body>    
+	<div id="main" class="container-fluid">
+	 <div class="row">
+	   <div class="col-md-12 col-xs-18">   
+	   <div class="page-header">
+	    <a href="/jeyamohan" title="ஜெயமோகன்"><img class="pull-right" width="50px" height="50px" src="/jeyamohan.png" alt="ஜெயமோகன்"></a>
+		<a href="/" alt="முகப்பு"><img class="pull-left" src="/home.png" title="முகப்பு"></a>
+		<h2>{{caption}} - <small>{{smallcaption}}</small></h2>
+	   </div>
+		{{{body}}}
+	   </div>
+	 </div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src='/js/jquery.jscroll.min.js'></script>
+	<script src="/js/fresco/fresco.js"></script>
+	<!--script src='/js/imagelightbox.min.js'></script-->
+	<script>
+		$( document ).ready(function() {
+			$('.jscroll').jscroll({
+				loadingHtml: '<img src="/loading.gif" alt="Loading" /> Loading...',
+				padding: 20,
+				nextSelector: 'a.jscroll-next',
+				contentSelector: '.jscroll',
+				debug: true
+			});
+			//$('a.lightbox').imageLightbox();
+		});
+	</script>
+</body>
+</html>

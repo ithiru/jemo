@@ -1,0 +1,71 @@
+<div class="large-12 columns">
+	<div class="booknav right">
+	{{#if prev}}
+		<a href="/{{prev.book_slug}}/{{prev.vol_slug}}/{{prev.chapter_no}}" class="button small radius success round" role="button"> 
+		   < {{#if prev.part_name}}
+			 {{prev.part_name}} -
+		   {{/if}}
+		   {{#if prev.chapter_name}}
+			 {{prev.chapter_name}}
+		   {{/if}}
+	   </a>
+	{{/if}}
+	{{#if next}}
+		<a href="/{{next.book_slug}}/{{next.vol_slug}}/{{next.chapter_no}}" class="button small radius success round" role="button">
+		   {{#if next.part_name}}
+			 {{next.part_name}} -
+		   {{/if}}
+		   {{#if next.chapter_name}}
+			 {{next.chapter_name}}
+		   {{/if}}  >
+		</a>
+	{{/if}}
+	</div>
+	<div class="jscroll">
+		<div class="left">
+		 <h3><a href='/{{current.book_slug}}/{{current.vol_slug}}'>{{current.vol_name}}</a> - 
+			   {{#if current.part_name}}
+				 {{current.part_name}} -
+			   {{/if}}
+			   {{#if current.chapter_name}}
+				 {{current.chapter_name}}
+			   {{/if}}
+		</h3>
+		<br />
+		</div>
+		<div class="clearfix"></div>
+		<div class="right th chapter-thumbnail">
+		 <a target='_blank' class='fresco' data-fresco-caption="ஓவியம்: ஷண்முகவேல்" 
+			href='/{{current.book_slug}}/{{current.vol_slug}}/{{current.id}}.jpg'>
+		  <img src="/{{current.book_slug}}/{{current.vol_slug}}/tn/{{current.id}}.jpg" alt="ஓவியம்: ஷண்முகவேல்" >
+		</a>
+		 <div class="caption"><p>ஓவியம்: ஷண்முகவேல்</p></div>
+		</div>
+		<div id="chapter">{{{content}}}</div>
+		<div class="leftnav booknav left">
+		{{#if prev}}
+			<a href="/{{prev.book_slug}}/{{prev.vol_slug}}/{{prev.chapter_no}}" class="button success round" role="button"> 
+			   < {{#if prev.part_name}}
+				 {{prev.part_name}} -
+			   {{/if}}
+			   {{#if prev.chapter_name}}
+				 {{prev.chapter_name}}
+			   {{/if}}
+		   </a>
+		{{/if}}
+		</div>
+		<div class="booknav right">
+		{{#if next}}
+			<a href="/{{next.book_slug}}/{{next.vol_slug}}/{{next.chapter_no}}" class="jscroll-next button success round" role="button">
+			   {{#if next.part_name}}
+				 {{next.part_name}} -
+			   {{/if}}
+			   {{#if next.chapter_name}}
+				 {{next.chapter_name}}
+			   {{/if}} >
+			</a>
+		{{/if}}
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
