@@ -96,7 +96,7 @@ DB_NAME=<db>
 
 ## App Demo
 
-![Demo](http://img.youtube.com/vi/NJaVaP_fuM0/0.jpg)](http://www.youtube.com/watch?v=NJaVaP_fuM0)
+[![Demo](http://img.youtube.com/vi/NJaVaP_fuM0/0.jpg)](http://www.youtube.com/watch?v=NJaVaP_fuM0)
 
 ## New UI
 
