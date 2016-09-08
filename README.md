@@ -68,27 +68,17 @@ DB_NAME=<db>
 
 ![](screenshots/iPhone5-Portrait.png)
 
-![](screenshots/iPhone5-Landscape.png)
-
 ## iPhone 6
 
 ![](screenshots/iPhone6-Portrait.png)
-
-![](screenshots/iPhone6-Landscape.png)
 
 ## iPhone 6+
 
 ![](screenshots/iPhone6Plus-portrait.png)
 
-![](screenshots/iPhone6Plus-landscape.png)
-
 ## iPad
 
 ![](screenshots/iPad.png)
-
-![](screenshots/iPad-Landscape.png)
-
-## Android - Lenovo Vibe P1
 
 ## Mac Book Pro
 
